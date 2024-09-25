@@ -5,7 +5,8 @@ $Global:VerbosePreference = 'Continue'
 # Import all modules
 Join-Path $PSScriptRoot 'src' | Get-ChildItem -File | Select-Object -ExpandProperty Fullname | Import-Module
 
-Install-Scoop
+# Skip because the ci-host already has scoop
+#Install-Scoop
 
 Test-NestedBucket
 Initialize-NeededConfiguration
