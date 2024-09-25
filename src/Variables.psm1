@@ -6,8 +6,8 @@ $env:SCOOP_DEBUG = 1
 
 [System.Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 [System.Environment]::SetEnvironmentVariable('SCOOP_HOME', $env:SCOOP_HOME, 'User')
-[System.Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
-[System.Environment]::SetEnvironmentVariable('SCOOP_DEBUG', $env:SCOOP_DEBUG, 'Machine')
+#[System.Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
+#[System.Environment]::SetEnvironmentVariable('SCOOP_DEBUG', $env:SCOOP_DEBUG, 'Machine')
 
 $env:GH_REQUEST_COUNTER = 0
 $NON_ZERO = 258
